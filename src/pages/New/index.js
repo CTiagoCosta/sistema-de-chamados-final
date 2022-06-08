@@ -81,7 +81,7 @@ export default function New(){
       setComplemento(snapshot.data().complemento)
 
       let index = lista.findIndex(item => item.id === snapshot.data().clienteId );
-      setCustomerSelected(index);
+      setCustomerSelected(index);   
       setIdCustomer(true);
 
     })
